@@ -1,0 +1,14 @@
+
+.place__paragraph {
+    display: grid;
+    align-items: flex-start;
+    row-gap: 26px;
+    grid-template-rows: min-content;
+    grid-area: para;
+}
+
+@media screen and (max-width: 500px) {
+    .place__paragraph {
+        margin: 0 16px;
+    }
+}

@@ -1,0 +1,9 @@
+
+.header__lang-link {
+    margin:0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 18px;
+    list-style-type: none;
+}

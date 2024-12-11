@@ -1,0 +1,11 @@
+
+.lead__img {
+    width: inherit;
+}
+
+@media screen and ( max-width: 768px) {
+    .lead__img {
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+    }
+}
